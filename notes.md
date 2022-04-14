@@ -78,7 +78,7 @@ User fred may run the following commands on b3dr0ck:
 
 After a bit of help from the lovely people of THM, I figured this out `sudo /usr/bin/base64 /root/pass.txt` and it works, you are provided with a base64 encrypted message.
 
-Running it through cyberchef ( https://gchq.github.io/CyberChef/ ) gives us a string, and running it through `NameThatHash` (`nth` in the terminal) tells us that it's an MD5 hash, again from the help of the lovely people of THM, I ran it through crackstation ( https://crackstation.net/ ), we get the password for root.
+Running it through cyberchef ( https://gchq.github.io/CyberChef/ ) gives us a string, and running it through, now delete all the decoding filters in cyberchef and paste in the string, and wait for a few minutes, and hit the magic wand and it'll give you another string, running it through `NameThatHash` (`nth` in the terminal) tells us that it's an MD5 hash, again from the help of the lovely people of THM, I ran it through crackstation ( https://crackstation.net/ ), we get the password for root.
 
 Doing `sudo su` didn't work and again (FROM THE HELP FROM THE *LOVELY PEOPLE OF THM*) I did a `su - root` and gave in the password. AND THAT WORKED!
 
