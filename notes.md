@@ -6,6 +6,8 @@ If looking for cronjobs on a machine, check for `/etc/crontab`, you can cat it i
 
 if `sudo su` doesn't work sometimes try using `su - root`
 
+`su - root` ---> `su` is just switch user, ` - <USER>` is authorizing *as* the `<USER>` so, when you do a `sudo su` you are supposed to use the password of teh sodoer, (current user). So when we do a `su - root` we tell it that we are going to use the `root` user's password instead of the current user's password.
+ 
 # Notes for privesc:
 Always check for `sudo -l` and use the `find` command to find stuff.
 
