@@ -94,10 +94,10 @@ We find both the `private rsa` key and the `TLS auth cert` replacing them in the
 
 Flags:
 
-barney.txt = THM{c2a6b26ec4643d8054208b270648011b}
+barney.txt = THM{REDACTED}
 
-fred.txt = THM{0990a5e8ffcc2e40f4ac349fd90703ac}
+fred.txt = THM{REDACTED}
 
-root.txt = THM{3eace4bfba81b1bee7cc4172c9db6481}
+root.txt = THM{REDACTED}
 
-fred's password = YabbaDabbaD00!
+fred's password = REDACTED
